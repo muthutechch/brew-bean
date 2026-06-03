@@ -13,18 +13,11 @@ Moderne Coffee-Shop-Website für Brew & Bean in Zürich.
 
 ## Verwendung
 
-1. **Repository klonen**
-
-   ```bash
-   git clone https://github.com/muthutechch/brew-bean.git
-   cd brew-bean
-   ```
-
-2. **Lokal öffnen**
+1. **Lokal öffnen**
 
    Öffne `index.html` in deinem Browser – alle Seiten sind statisch und benötigen keinen Server.
 
-3. **Anpassen**
+2. **Anpassen**
 
    - **Inhalte bearbeiten:** Texte in den HTML-Dateien (`index.html`, `menu.html`, `about.html`, `contact.html`) ändern
    - **Farben anpassen:** CSS-Variablen in `css/style.css` (Zeile 9–29) bearbeiten
@@ -32,13 +25,6 @@ Moderne Coffee-Shop-Website für Brew & Bean in Zürich.
    - **Menü ändern:** Speisekarte in `menu.html` bearbeiten (Kategorien, Preise, Beschreibungen)
    - **Standort anpassen:** Adresse, Telefon, E-Mail in allen HTML-Dateien aktualisieren
    - **Google Maps:** Karten-Embed in `contact.html` durch eigene Koordinaten ersetzen
-
-4. **Auf GitHub Pages veröffentlichen**
-
-   - Gehe zu deinem Repository auf GitHub → **Settings** → **Pages**
-   - Wähle bei "Branch" `main` und `/ (root)` aus
-   - Nach ca. 1 Minute ist die Seite live unter:  
-     `https://dein-nutzername.github.io/brew-bean/`
 
 ## Struktur
 
@@ -69,3 +55,7 @@ brew-bean/
 ## Standort
 
 Bahnhofstrasse 42, 8001 Zürich, Schweiz
+
+---
+
+Copyright © Muthutech.ch
