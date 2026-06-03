@@ -38,7 +38,6 @@ brew-bean/
 │   └── style.css       # Alle Styles
 ├── js/
 │   └── main.js         # Alle Skripte
-├── images/             # Platzhalter für eigene Bilder
 ├── sitemap.xml         # SEO-Sitemap
 ├── robots.txt          # Crawler-Konfiguration
 └── README.md
