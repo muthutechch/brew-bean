@@ -1,0 +1,22 @@
+{
+  "sectionLabel": "Warum wir",
+  "title": "Das Brew & Bean Versprechen",
+  "subtitle": "Wir beziehen die feinsten Bohnen und kreieren jedes Getränk mit Leidenschaft. Jeder Besuch ist ein Erlebnis.",
+  "features": [
+    {
+      "icon": "eco",
+      "title": "Nachhaltiger Anbau",
+      "desc": "Wir arbeiten mit ethischen Farmen weltweit zusammen, um Ihnen die hochwertigsten, verantwortungsvoll angebauten Kaffeebohnen zu bieten."
+    },
+    {
+      "icon": "bakery_dining",
+      "title": "Meister-Baristas",
+      "desc": "Unsere erfahrenen Baristas trainieren monatelang, um jeden Aufguss, jeden Shot und jedes Latte-Art-Design zu perfektionieren."
+    },
+    {
+      "icon": "home",
+      "title": "Gemütliche Atmosphäre",
+      "desc": "Warmes Licht, bequeme Sitzgelegenheiten und sanfte Musik schaffen den perfekten Ort zum Entspannen oder Arbeiten."
+    }
+  ]
+}

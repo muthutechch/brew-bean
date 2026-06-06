@@ -1,0 +1,15 @@
+{
+  "sectionLabel": "Bewertungen",
+  "title": "Was unsere Gäste sagen",
+  "subtitle": "Verlassen Sie sich nicht nur auf unser Wort – hören Sie, was unsere Gäste sagen.",
+  "testimonials": [
+    { "name": "Anna Müller", "role": "Stammgast", "quote": "Der beste Flat White der Stadt. Die Atmosphäre ist perfekt zum Arbeiten und das Personal merkt sich immer meine Bestellung.", "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" },
+    { "name": "Lukas Weber", "role": "Kaffee-Enthusiast", "quote": "Ihr Pour-Over-Kaffee ist eine Kunstform. Man schmeckt die Hingabe in jedem Schluck. Auch die Pasteten sind unglaublich.", "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" },
+    { "name": "Sofia Keller", "role": "Wochenend-Gast", "quote": "Ein verstecktes Juwel! Die gemütliche Atmosphäre, die freundlichen Baristas und der erstaunliche Cold Brew bringen mich jedes Wochenende zurück.", "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" },
+    { "name": "David Schuler", "role": "Kaffeekenner", "quote": "Endlich ein Café in Zürich mit richtig gutem Specialty Coffee. Die Baristas erklären dir gerne die Herkunft der Bohnen.", "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" },
+    { "name": "Lena Hofstetter", "role": "Shopaholic", "quote": "Der Lavendel-Honig-Latte ist mein absoluter Favorit! Die Lage an der Bahnhofstrasse ist perfekt für eine Pause beim Shoppen.", "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" },
+    { "name": "Marco Bernasconi", "role": "Frühaufsteher", "quote": "Die Gipfel hier sind besser als in manchen Bäckereien in Paris. Dazu einen perfekten Cappuccino – das ist mein perfekter Morgen.", "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" },
+    { "name": "Julia Fischer", "role": "Büroangestellte", "quote": "Ein wunderbarer Ort zum Entspannen nach der Arbeit. Der Nitro Cold Brew ist erfrischend und die Bedienung immer herzlich.", "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80" },
+    { "name": "Thomas Brunner", "role": "Kaffeepilger", "quote": "Ich komme extra aus Winterthur hierher. Der beste Kaffee weit und breit. Die Caramel-Macchiato ist ein Traum!", "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&q=80" }
+  ]
+}

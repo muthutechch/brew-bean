@@ -1,16 +1,19 @@
 /* ========== DOM Ready ========== */
 document.addEventListener('DOMContentLoaded', () => {
   initNav();
-  initScrollAnimations();
   initMobileMenuOverlay();
   initContactForm();
   initTestimonialCarousel();
-  initCountUp();
   initBackToTop();
   initParallax();
-  initRevealImages();
 
   if (document.querySelector('.menu-tabs')) initMenuTabs();
+});
+
+document.addEventListener('cms:loaded', () => {
+  initScrollAnimations();
+  initCountUp();
+  initRevealImages();
 });
 
 /* ========== Navigation ========== */

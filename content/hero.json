@@ -1,0 +1,14 @@
+{
+  "badge": "Täglich geöffnet",
+  "title": "Handgemachter <span class=\"gradient-text\">Kaffee</span>,<br>warme Momente",
+  "subtitle": "Handverlesene Bohnen, meisterhafte Zubereitung und eine gemütliche Atmosphäre zum Geniessen. Willkommen in Ihrem neuen Lieblingscafé in Zürich.",
+  "buttons": [
+    { "text": "Menü ansehen →", "link": "menu.html", "class": "btn btn-primary" },
+    { "text": "Unsere Geschichte", "link": "about.html", "class": "btn btn-white" }
+  ],
+  "stats": [
+    { "number": "12+", "label": "Spezialitätenmischungen" },
+    { "number": "5000+", "label": "Zufriedene Gäste" },
+    { "number": "4.9", "label": "Durchschnittsbewertung" }
+  ]
+}

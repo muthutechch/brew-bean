@@ -1,0 +1,25 @@
+{
+  "heroTitle": "Unsere Geschichte",
+  "heroSubtitle": "Aus einem kleinen Traum wurde Ihr Lieblingscafé. Lernen Sie die Menschen und die Leidenschaft hinter Brew & Bean kennen.",
+  "sectionLabel": "Seit 2018",
+  "title": "Wie Brew & Bean begann",
+  "p1": "Alles begann in einer winzigen 30-Quadratmeter-Fläche mit einer gebrauchten Espressomaschine und viel Tatendrang. Unsere Gründer Maya und James kündigten ihre Jobs in der Wirtschaft, um einen gemeinsamen Traum zu verwirklichen – ein Café zu schaffen, in dem Qualität und Gemeinschaft an erster Stelle stehen.",
+  "p2": "Nach monatelangen Renovationen, nächtlichen Rezept-Tests und unzähligen Tassen Kaffee öffnete Brew & Bean im Sommer 2018 seine Türen. Das Zürcher Quartier nahm uns von Anfang an herzlich auf, und wir sind seither stetig gewachsen – unser Menü, unser Team und unsere Räumlichkeiten haben sich erweitert, aber die Qualität, die uns ausmacht, blieb stets unverändert.",
+  "p3": "Heute beziehen wir unsere Bohnen direkt von kleinen Farmen in Äthiopien, Kolumbien und Guatemala. Jede Röstung, jeder Aufguss, jede Pastete wird mit derselben Hingabe und Leidenschaft zubereitet wie am ersten Tag.",
+  "valuesSectionLabel": "Wofür wir stehen",
+  "valuesTitle": "Unsere Werte",
+  "valuesSubtitle": "Jede Entscheidung, die wir treffen, wird von den Prinzipien geleitet, die uns definieren.",
+  "values": [
+    { "icon": "public", "title": "Nachhaltigkeit", "desc": "Wir arbeiten direkt mit ethischen Farmen zusammen, verwenden kompostierbare Verpackungen und minimieren Abfall auf dem gesamten Weg von der Bohne bis zur Tasse." },
+    { "icon": "handshake", "title": "Gemeinschaft", "desc": "Wir kooperieren mit lokalen Künstlern, veranstalten Open-Mic-Nächte und unterstützen Anliegen aus dem Quartier – denn Gemeinschaft ist uns wichtig." },
+    { "icon": "auto_awesome", "title": "Qualität", "desc": "Von der Bohnenauswahl bis zur Brühpräzision machen wir keine Kompromisse. Jedes Getränk wird bis zur Perfektion zubereitet." }
+  ],
+  "teamSectionLabel": "Unser Team",
+  "teamTitle": "Lernen Sie unser Team kennen",
+  "teamSubtitle": "Ein leidenschaftliches Team, das Ihr Kaffeeerlebnis unvergesslich macht.",
+  "team": [
+    { "name": "James Wright", "role": "Mitgründer & Röstmeister", "bio": "Ein ehemaliger Ingenieur, der zum Kaffeeliebhaber wurde. James reist um die Welt, um die feinsten Bohnen zu finden.", "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80" },
+    { "name": "Maya Chen", "role": "Mitgründerin & Chef-Barista", "bio": "Maya verleiht jedem Aufguss künstlerische Note. Sie trainierte in Italien und gewann regionale Latte-Art-Meisterschaften.", "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80" },
+    { "name": "Luna Park", "role": "Konditorin", "bio": "Lunas Kreationen sind das Herz unserer Bäckerei. Jeder Gipfel, Muffin und Kuchen ist ihr Meisterwerk.", "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80" }
+  ]
+}

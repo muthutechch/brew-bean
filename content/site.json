@@ -1,0 +1,13 @@
+{
+  "siteName": "Brew & Bean",
+  "address": "Bahnhofstrasse 42, 8001 Zürich",
+  "phone": "+41 44 123 45 67",
+  "email": "hallo@brewandbean.ch",
+  "hours": "Mo–Fr 7–19 Uhr · Sa–So 8–18 Uhr",
+  "social": [
+    { "platform": "Instagram", "icon": "camera_alt", "url": "#" },
+    { "platform": "Facebook", "icon": "thumb_up", "url": "#" },
+    { "platform": "Twitter", "icon": "flutter", "url": "#" },
+    { "platform": "TikTok", "icon": "music_note", "url": "#" }
+  ]
+}

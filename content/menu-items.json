@@ -1,0 +1,81 @@
+{
+  "sectionLabel": "Unser Menü",
+  "title": "Beliebteste Artikel",
+  "subtitle": "Von klassischem Espresso bis zu kreativen Spezialitäten – für jeden Kaffeeliebhaber ist etwas dabei.",
+  "preview": [
+    {
+      "name": "Signature Espresso",
+      "category": "Espresso",
+      "desc": "Reichhaltiger, vollmundiger Espresso mit Noten von dunkler Schokolade und Karamell.",
+      "price": "CHF 3.50",
+      "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80",
+      "rating": "★ 4.9"
+    },
+    {
+      "name": "Vanille-Bohnen-Latte",
+      "category": "Latte",
+      "desc": "Feiner Espresso mit aufgeschäumter Milch und echtem Vanillesirup.",
+      "price": "CHF 4.75",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80",
+      "rating": "★ 4.8"
+    },
+    {
+      "name": "Buttergipfel",
+      "category": "Gebäck",
+      "desc": "Blättriger, goldgebackener Gipfel, täglich frisch mit französischer Butter zubereitet.",
+      "price": "CHF 3.25",
+      "image": "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80",
+      "rating": "★ 4.7"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Kaffee",
+      "id": "coffee",
+      "items": [
+        { "name": "Hausmischung", "desc": "Unsere Signature-Mittelröstung, geschmeidig und ausgewogen.", "price": "CHF 3.00", "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80", "rating": "★ 4.7" },
+        { "name": "Cold Brew", "desc": "20 Stunden lang extrahiert, geschmeidig und natürlich süss auf Eis.", "price": "CHF 4.25", "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=400&q=80", "rating": "★ 4.9" },
+        { "name": "Nitro Cold Brew", "desc": "Samtweicher Cold Brew mit Stickstoff veredelt für ein cremiges Finish.", "price": "CHF 5.00", "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Pour-Over", "desc": "Single-Origin-Bohnen von Hand aufgegossen, um einzigartige Aromen zu entfalten.", "price": "CHF 5.50", "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80", "rating": "★ 4.9" },
+        { "name": "Eiskaffee", "desc": "Gekühlt und erfrischend, serviert mit Ihrer Wahl Milch oder schwarz.", "price": "CHF 3.75", "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80", "rating": "★ 4.6" },
+        { "name": "French Press", "desc": "Vollmundig und reichhaltig, frisch zubereitet in einer traditionellen French Press.", "price": "CHF 4.75", "image": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=400&q=80", "rating": "★ 4.7" }
+      ]
+    },
+    {
+      "name": "Espresso",
+      "id": "espresso",
+      "items": [
+        { "name": "Signature Espresso", "desc": "Reichhaltiger Espresso mit Noten von dunkler Schokolade und Karamell.", "price": "CHF 3.50", "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80", "rating": "★ 4.9" },
+        { "name": "Cappuccino", "desc": "Espresso, aufgeschäumte Milch und samtiger Milchschaum mit Kakao bestäubt.", "price": "CHF 4.50", "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Vanille-Bohnen-Latte", "desc": "Feiner Espresso mit aufgeschäumter Milch und echtem Vanillesirup.", "price": "CHF 4.75", "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Caramel Macchiato", "desc": "Geschichteter Vanille-Latte mit reichhaltigem Karamell-Topping.", "price": "CHF 5.00", "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=400&q=80", "rating": "★ 4.7" },
+        { "name": "Mokka Latte", "desc": "Espresso trifft auf reichhaltige Schokolade und aufgeschäumte Milch mit Sahne.", "price": "CHF 5.25", "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Flat White", "desc": "Doppelter Ristretto auf seidigem Mikroschaum für einen kräftigen, dennoch geschmeidigen Geschmack.", "price": "CHF 4.75", "image": "https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=400&q=80", "rating": "★ 4.9" }
+      ]
+    },
+    {
+      "name": "Gebäck",
+      "id": "pastries",
+      "items": [
+        { "name": "Buttergipfel", "desc": "Blättriger Gipfel, täglich frisch mit französischer Butter gebacken.", "price": "CHF 3.25", "image": "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80", "rating": "★ 4.7" },
+        { "name": "Blaubeer-Muffin", "desc": "Safter, buttriger Muffin mit frischen Blaubeeren und Streuselhaube.", "price": "CHF 3.50", "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&q=80", "rating": "★ 4.6" },
+        { "name": "Zimtschnecke", "desc": "Weicher Hefeteig mit Zimt-Zucker und Frischkäseglasur.", "price": "CHF 4.00", "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Schokoladenkeks", "desc": "Kauzige Kekse mit dunklen Schokoladenstückchen und Meersalz.", "price": "CHF 2.75", "image": "https://images.unsplash.com/photo-1529973565457-a60a2ccf750d?w=400&q=80", "rating": "★ 4.7" },
+        { "name": "Bananenbrot", "desc": "Saftiges Bananenbrot mit Walnüssen, warm mit Butter serviert.", "price": "CHF 3.75", "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80", "rating": "★ 4.5" },
+        { "name": "Mandelgipfel", "desc": "Blättriger Gipfel mit Mandelcreme gefüllt, mit Mandelblättchen bestreut.", "price": "CHF 4.25", "image": "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=400&q=80", "rating": "★ 4.8" }
+      ]
+    },
+    {
+      "name": "Saisonale Spezialitäten",
+      "id": "specials",
+      "items": [
+        { "name": "Lavendel-Honig-Latte", "desc": "Espresso mit aufgeschäumter Milch, Lavendelsirup und einem Hauch Honig.", "price": "CHF 5.50", "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80", "rating": "★ 4.9" },
+        { "name": "Kürbis-Gewürz-Latte", "desc": "Warme Herbstaromen mit Kürbis, Zimt, Muskat und Espresso.", "price": "CHF 5.75", "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80", "rating": "★ 4.7" },
+        { "name": "Iced Matcha Latte", "desc": "Premium-Zeremonie-Matcha mit gekühlter Hafermilch auf Eis.", "price": "CHF 5.25", "image": "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Gesalzener Karamell Mokka", "desc": "Reichhaltige Schokolade und Karamell mit einer Prise Meersalz und Espresso.", "price": "CHF 5.75", "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&q=80", "rating": "★ 4.8" },
+        { "name": "Honig-Mandel Flat White", "desc": "Seidiger Flat White mit Honig gesüsst und einem Schuss Mandelmilch.", "price": "CHF 5.50", "image": "https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80", "rating": "★ 4.6" },
+        { "name": "Gewürzter Chai Latte", "desc": "Hausgemachtes Chai-Konzentrat mit aufgeschäumter Milch und Zimt.", "price": "CHF 4.75", "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80", "rating": "★ 4.7" }
+      ]
+    }
+  ]
+}

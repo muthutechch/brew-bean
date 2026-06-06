@@ -69,76 +69,29 @@
   <section class="menu-section" id="coffee" aria-labelledby="coffee-title">
     <div class="container">
       <h2 class="menu-section-title animate" id="coffee-title">Kaffee</h2>
-      <div class="menu-grid">
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Filterkaffee in einer Keramiktasse" loading="lazy">
+      <div class="menu-grid" data-cms-menu="coffee">
+        <template>
+          <article class="menu-item-card animate">
+            <img class="menu-item-image" src="{{image}}" alt="{{name}}" loading="lazy">
+            <div class="menu-item-body">
+              <div class="menu-item-category">{{category}}</div>
+              <h3 class="menu-item-name">{{name}}</h3>
+              <p class="menu-item-desc">{{desc}}</p>
+              <div class="menu-item-bottom">
+                <span class="menu-item-price">{{price}}</span>
+                <span class="menu-item-rating">{{rating}}</span>
+              </div>
+            </div>
+          </article>
+        </template>
+        <!-- Static fallback for SEO -->
+        <article class="menu-item-card animate">
+          <img class="menu-item-image" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Hausmischung" loading="lazy">
           <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
             <h3 class="menu-item-name">Hausmischung</h3>
             <p class="menu-item-desc">Unsere Signature-Mittelröstung, geschmeidig und ausgewogen.</p>
             <div class="menu-item-bottom">
               <span class="menu-item-price">CHF 3.00</span>
-              <span class="menu-item-rating">★ 4.7</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=400&q=80" alt="Cold Brew Kaffee im Glas" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
-            <h3 class="menu-item-name">Cold Brew</h3>
-            <p class="menu-item-desc">20 Stunden lang extrahiert, geschmeidig und natürlich süss auf Eis.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.25</span>
-              <span class="menu-item-rating">★ 4.9</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=400&q=80" alt="Nitro Cold Brew mit Kaskadenperlen" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
-            <h3 class="menu-item-name">Nitro Cold Brew</h3>
-            <p class="menu-item-desc">Samtweicher Cold Brew mit Stickstoff veredelt für ein cremiges Finish.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.00</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Pour-Over Kaffee wird aufgebrüht" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
-            <h3 class="menu-item-name">Pour-Over</h3>
-            <p class="menu-item-desc">Single-Origin-Bohnen von Hand aufgegossen, um einzigartige Aromen zu entfalten.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.50</span>
-              <span class="menu-item-rating">★ 4.9</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80" alt="Eiskaffee im Glas" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
-            <h3 class="menu-item-name">Eiskaffee</h3>
-            <p class="menu-item-desc">Gekühlt und erfrischend, serviert mit Ihrer Wahl Milch oder schwarz.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 3.75</span>
-              <span class="menu-item-rating">★ 4.6</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1497515114629-f71d768fd07c?w=400&q=80" alt="French Press Kaffee auf einem Holztisch" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Kaffee</div>
-            <h3 class="menu-item-name">French Press</h3>
-            <p class="menu-item-desc">Vollmundig und reichhaltig, frisch zubereitet in einer traditionellen French Press.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.75</span>
-              <span class="menu-item-rating">★ 4.7</span>
             </div>
           </div>
         </article>
@@ -150,76 +103,28 @@
   <section class="menu-section" id="espresso" aria-labelledby="espresso-title">
     <div class="container">
       <h2 class="menu-section-title animate" id="espresso-title">Espresso</h2>
-      <div class="menu-grid">
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80" alt="Espresso in einer weissen Tasse" loading="lazy">
+      <div class="menu-grid" data-cms-menu="espresso">
+        <template>
+          <article class="menu-item-card animate">
+            <img class="menu-item-image" src="{{image}}" alt="{{name}}" loading="lazy">
+            <div class="menu-item-body">
+              <div class="menu-item-category">{{category}}</div>
+              <h3 class="menu-item-name">{{name}}</h3>
+              <p class="menu-item-desc">{{desc}}</p>
+              <div class="menu-item-bottom">
+                <span class="menu-item-price">{{price}}</span>
+                <span class="menu-item-rating">{{rating}}</span>
+              </div>
+            </div>
+          </article>
+        </template>
+        <article class="menu-item-card animate">
+          <img class="menu-item-image" src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80" alt="Signature Espresso" loading="lazy">
           <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
             <h3 class="menu-item-name">Signature Espresso</h3>
             <p class="menu-item-desc">Reichhaltiger Espresso mit Noten von dunkler Schokolade und Karamell.</p>
             <div class="menu-item-bottom">
               <span class="menu-item-price">CHF 3.50</span>
-              <span class="menu-item-rating">★ 4.9</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&q=80" alt="Cappuccino mit Milchschaumkunst" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
-            <h3 class="menu-item-name">Cappuccino</h3>
-            <p class="menu-item-desc">Espresso, aufgeschäumte Milch und samtiger Milchschaum mit Kakao bestäubt.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.50</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80" alt="Vanille-Latte mit Milchschaumkunst" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
-            <h3 class="menu-item-name">Vanille-Bohnen-Latte</h3>
-            <p class="menu-item-desc">Feiner Espresso mit aufgeschäumter Milch und echtem Vanillesirup.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.75</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=400&q=80" alt="Caramel Macchiato" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
-            <h3 class="menu-item-name">Caramel Macchiato</h3>
-            <p class="menu-item-desc">Geschichteter Vanille-Latte mit reichhaltigem Karamell-Topping.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.00</span>
-              <span class="menu-item-rating">★ 4.7</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&q=80" alt="Mokka Latte in einer Tasse" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
-            <h3 class="menu-item-name">Mokka Latte</h3>
-            <p class="menu-item-desc">Espresso trifft auf reichhaltige Schokolade und aufgeschäumte Milch mit Sahne.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.25</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=400&q=80" alt="Flat White in einer Keramiktasse" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Espresso</div>
-            <h3 class="menu-item-name">Flat White</h3>
-            <p class="menu-item-desc">Doppelter Ristretto auf seidigem Mikroschaum für einen kräftigen, dennoch geschmeidigen Geschmack.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.75</span>
-              <span class="menu-item-rating">★ 4.9</span>
             </div>
           </div>
         </article>
@@ -231,76 +136,28 @@
   <section class="menu-section" id="pastries" aria-labelledby="pastries-title">
     <div class="container">
       <h2 class="menu-section-title animate" id="pastries-title">Gebäck</h2>
-      <div class="menu-grid">
-        <article class="menu-item-card animate delay-1">
+      <div class="menu-grid" data-cms-menu="pastries">
+        <template>
+          <article class="menu-item-card animate">
+            <img class="menu-item-image" src="{{image}}" alt="{{name}}" loading="lazy">
+            <div class="menu-item-body">
+              <div class="menu-item-category">{{category}}</div>
+              <h3 class="menu-item-name">{{name}}</h3>
+              <p class="menu-item-desc">{{desc}}</p>
+              <div class="menu-item-bottom">
+                <span class="menu-item-price">{{price}}</span>
+                <span class="menu-item-rating">{{rating}}</span>
+              </div>
+            </div>
+          </article>
+        </template>
+        <article class="menu-item-card animate">
           <img class="menu-item-image" src="https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80" alt="Buttergipfel" loading="lazy">
           <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
             <h3 class="menu-item-name">Buttergipfel</h3>
             <p class="menu-item-desc">Blättriger Gipfel, täglich frisch mit französischer Butter gebacken.</p>
             <div class="menu-item-bottom">
               <span class="menu-item-price">CHF 3.25</span>
-              <span class="menu-item-rating">★ 4.7</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&q=80" alt="Blaubeer-Muffin" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
-            <h3 class="menu-item-name">Blaubeer-Muffin</h3>
-            <p class="menu-item-desc">Safter, buttriger Muffin mit frischen Blaubeeren und Streuselhaube.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 3.50</span>
-              <span class="menu-item-rating">★ 4.6</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&q=80" alt="Zimtschnecke" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
-            <h3 class="menu-item-name">Zimtschnecke</h3>
-            <p class="menu-item-desc">Weicher Hefeteig mit Zimt-Zucker und Frischkäseglasur.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.00</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1529973565457-a60a2ccf750d?w=400&q=80" alt="Schokoladenkeks" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
-            <h3 class="menu-item-name">Schokoladenkeks</h3>
-            <p class="menu-item-desc">Kauzige Kekse mit dunklen Schokoladenstückchen und Meersalz.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 2.75</span>
-              <span class="menu-item-rating">★ 4.7</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Scheibe Bananenbrot" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
-            <h3 class="menu-item-name">Bananenbrot</h3>
-            <p class="menu-item-desc">Saftiges Bananenbrot mit Walnüssen, warm mit Butter serviert.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 3.75</span>
-              <span class="menu-item-rating">★ 4.5</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=400&q=80" alt="Mandelgipfel" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Gebäck</div>
-            <h3 class="menu-item-name">Mandelgipfel</h3>
-            <p class="menu-item-desc">Blättriger Gipfel mit Mandelcreme gefüllt, mit Mandelblättchen bestreut.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.25</span>
-              <span class="menu-item-rating">★ 4.8</span>
             </div>
           </div>
         </article>
@@ -312,76 +169,28 @@
   <section class="menu-section" id="specials" aria-labelledby="specials-title">
     <div class="container">
       <h2 class="menu-section-title animate" id="specials-title">Saisonale Spezialitäten</h2>
-      <div class="menu-grid">
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80" alt="Iced Lavendel Latte" loading="lazy">
+      <div class="menu-grid" data-cms-menu="specials">
+        <template>
+          <article class="menu-item-card animate">
+            <img class="menu-item-image" src="{{image}}" alt="{{name}}" loading="lazy">
+            <div class="menu-item-body">
+              <div class="menu-item-category">{{category}}</div>
+              <h3 class="menu-item-name">{{name}}</h3>
+              <p class="menu-item-desc">{{desc}}</p>
+              <div class="menu-item-bottom">
+                <span class="menu-item-price">{{price}}</span>
+                <span class="menu-item-rating">{{rating}}</span>
+              </div>
+            </div>
+          </article>
+        </template>
+        <article class="menu-item-card animate">
+          <img class="menu-item-image" src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80" alt="Lavendel-Honig-Latte" loading="lazy">
           <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
             <h3 class="menu-item-name">Lavendel-Honig-Latte</h3>
             <p class="menu-item-desc">Espresso mit aufgeschäumter Milch, Lavendelsirup und einem Hauch Honig.</p>
             <div class="menu-item-bottom">
               <span class="menu-item-price">CHF 5.50</span>
-              <span class="menu-item-rating">★ 4.9</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80" alt="Kürbis Gewürz Latte" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
-            <h3 class="menu-item-name">Kürbis-Gewürz-Latte</h3>
-            <p class="menu-item-desc">Warme Herbstaromen mit Kürbis, Zimt, Muskat und Espresso.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.75</span>
-              <span class="menu-item-rating">★ 4.7</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?w=400&q=80" alt="Iced Matcha Latte" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
-            <h3 class="menu-item-name">Iced Matcha Latte</h3>
-            <p class="menu-item-desc">Premium-Zeremonie-Matcha mit gekühlter Hafermilch auf Eis.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.25</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-1">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=400&q=80" alt="Gesalzener Karamell Mokka" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
-            <h3 class="menu-item-name">Gesalzener Karamell Mokka</h3>
-            <p class="menu-item-desc">Reichhaltige Schokolade und Karamell mit einer Prise Meersalz und Espresso.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.75</span>
-              <span class="menu-item-rating">★ 4.8</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-2">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80" alt="Honig-Mandel Flat White" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
-            <h3 class="menu-item-name">Honig-Mandel Flat White</h3>
-            <p class="menu-item-desc">Seidiger Flat White mit Honig gesüsst und einem Schuss Mandelmilch.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 5.50</span>
-              <span class="menu-item-rating">★ 4.6</span>
-            </div>
-          </div>
-        </article>
-        <article class="menu-item-card animate delay-3">
-          <img class="menu-item-image" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Chai Latte" loading="lazy">
-          <div class="menu-item-body">
-            <div class="menu-item-category">Limited Edition</div>
-            <h3 class="menu-item-name">Gewürzter Chai Latte</h3>
-            <p class="menu-item-desc">Hausgemachtes Chai-Konzentrat mit aufgeschäumter Milch und Zimt.</p>
-            <div class="menu-item-bottom">
-              <span class="menu-item-price">CHF 4.75</span>
-              <span class="menu-item-rating">★ 4.7</span>
             </div>
           </div>
         </article>
@@ -427,10 +236,10 @@
         <div>
           <h4>Kontakt</h4>
           <ul class="footer-contact">
-            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">location_on</span></span> Bahnhofstrasse 42, 8001 Zürich</li>
-            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">phone</span></span> +41 44 123 45 67</li>
-            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">mail</span></span> hallo@brewandbean.ch</li>
-            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">access_time</span></span> Mo–Fr 7–19 Uhr · Sa–So 8–18 Uhr</li>
+            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">location_on</span></span> <span data-cms="site.address">Bahnhofstrasse 42, 8001 Zürich</span></li>
+            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">phone</span></span> <span data-cms="site.phone">+41 44 123 45 67</span></li>
+            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">mail</span></span> <span data-cms="site.email">hallo@brewandbean.ch</span></li>
+            <li><span class="icon" aria-hidden="true"><span class="material-symbols-outlined" aria-hidden="true">access_time</span></span> <span data-cms="site.hours">Mo–Fr 7–19 Uhr · Sa–So 8–18 Uhr</span></li>
           </ul>
         </div>
       </div>
@@ -441,6 +250,7 @@
   </footer>
 
   <button class="back-to-top" aria-label="Nach oben scrollen">↑</button>
+  <script src="js/content-loader.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
