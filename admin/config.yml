@@ -37,113 +37,137 @@ collections:
   - name: "hero"
     label: "Hero Bereich"
     delete: false
-    file: "content/hero.json"
-    fields:
-      - { label: "Badge Text", name: "badge", widget: "string", default: "Täglich geöffnet" }
-      - { label: "Titel (HTML erlaubt)", name: "title", widget: "text", default: "Handgemachter <span class=\"gradient-text\">Kaffee</span>,<br>warme Momente" }
-      - { label: "Untertitel", name: "subtitle", widget: "text" }
-      - label: "Buttons"
-        name: "buttons"
-        widget: "list"
+    files:
+      - file: "content/hero.json"
+        label: "Hero Bereich"
+        name: "hero"
         fields:
-          - { label: "Text", name: "text", widget: "string" }
-          - { label: "Link", name: "link", widget: "string", default: "menu.html" }
-          - { label: "CSS-Klasse", name: "class", widget: "string", default: "btn btn-primary" }
-      - label: "Statistiken"
-        name: "stats"
-        widget: "list"
-        fields:
-          - { label: "Zahl", name: "number", widget: "string" }
-          - { label: "Label", name: "label", widget: "string" }
+          - { label: "Badge Text", name: "badge", widget: "string", default: "Täglich geöffnet" }
+          - { label: "Titel (HTML erlaubt)", name: "title", widget: "text", default: "Handgemachter <span class=\"gradient-text\">Kaffee</span>,<br>warme Momente" }
+          - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "Buttons"
+            name: "buttons"
+            widget: "list"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Link", name: "link", widget: "string", default: "menu.html" }
+              - { label: "CSS-Klasse", name: "class", widget: "string", default: "btn btn-primary" }
+          - label: "Statistiken"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Zahl", name: "number", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
 
   - name: "features"
     label: "Features"
     delete: false
-    file: "content/features.json"
-    fields:
-      - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Warum wir" }
-      - { label: "Titel", name: "title", widget: "string", default: "Das Brew & Bean Versprechen" }
-      - { label: "Untertitel", name: "subtitle", widget: "text" }
-      - label: "Feature Karten"
+    files:
+      - file: "content/features.json"
+        label: "Features"
         name: "features"
-        widget: "list"
         fields:
-          - { label: "Icon-Name", name: "icon", widget: "string", default: "eco" }
-          - { label: "Titel", name: "title", widget: "string" }
-          - { label: "Beschreibung", name: "desc", widget: "text" }
+          - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Warum wir" }
+          - { label: "Titel", name: "title", widget: "string", default: "Das Brew & Bean Versprechen" }
+          - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "Feature Karten"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Icon-Name", name: "icon", widget: "string", default: "eco" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
 
   - name: "menu"
     label: "Menü"
     delete: false
-    file: "content/menu-items.json"
-    fields:
-      - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Unser Menü" }
-      - { label: "Titel", name: "title", widget: "string", default: "Beliebteste Artikel" }
-      - { label: "Untertitel", name: "subtitle", widget: "text" }
-      - label: "Vorschau-Artikel (Startseite)"
-        name: "preview"
-        widget: "list"
+    files:
+      - file: "content/menu-items.json"
+        label: "Menü"
+        name: "menu"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Kategorie", name: "category", widget: "string" }
-          - { label: "Beschreibung", name: "desc", widget: "text" }
-          - { label: "Preis", name: "price", widget: "string" }
-          - { label: "Bild-URL", name: "image", widget: "string" }
-          - { label: "Bewertung", name: "rating", widget: "string", default: "★ 4.9" }
-      - label: "Kategorien (Menüseite)"
-        name: "categories"
-        widget: "list"
-        fields:
-          - { label: "Kategorie-Name", name: "name", widget: "string" }
-          - { label: "ID", name: "id", widget: "string" }
-          - label: "Artikel"
-            name: "items"
+          - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Unser Menü" }
+          - { label: "Titel", name: "title", widget: "string", default: "Beliebteste Artikel" }
+          - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "Vorschau-Artikel (Startseite)"
+            name: "preview"
             widget: "list"
             fields:
               - { label: "Name", name: "name", widget: "string" }
+              - { label: "Kategorie", name: "category", widget: "string" }
               - { label: "Beschreibung", name: "desc", widget: "text" }
               - { label: "Preis", name: "price", widget: "string" }
               - { label: "Bild-URL", name: "image", widget: "string" }
-              - { label: "Bewertung", name: "rating", widget: "string" }
+              - { label: "Bewertung", name: "rating", widget: "string", default: "★ 4.9" }
+          - label: "Kategorien (Menüseite)"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Kategorie-Name", name: "name", widget: "string" }
+              - { label: "ID", name: "id", widget: "string" }
+              - label: "Artikel"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Beschreibung", name: "desc", widget: "text" }
+                  - { label: "Preis", name: "price", widget: "string" }
+                  - { label: "Bild-URL", name: "image", widget: "string" }
+                  - { label: "Bewertung", name: "rating", widget: "string" }
 
   - name: "testimonials"
     label: "Bewertungen"
     delete: false
-    file: "content/testimonials.json"
-    fields:
-      - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Bewertungen" }
-      - { label: "Titel", name: "title", widget: "string", default: "Was unsere Gäste sagen" }
-      - { label: "Untertitel", name: "subtitle", widget: "text" }
-      - label: "Bewertungen"
+    files:
+      - file: "content/testimonials.json"
+        label: "Bewertungen"
         name: "testimonials"
-        widget: "list"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Rolle", name: "role", widget: "string" }
-          - { label: "Zitat", name: "quote", widget: "text" }
-          - { label: "Avatar-URL", name: "avatar", widget: "string" }
+          - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Bewertungen" }
+          - { label: "Titel", name: "title", widget: "string", default: "Was unsere Gäste sagen" }
+          - { label: "Untertitel", name: "subtitle", widget: "text" }
+          - label: "Bewertungen"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Rolle", name: "role", widget: "string" }
+              - { label: "Zitat", name: "quote", widget: "text" }
+              - { label: "Avatar-URL", name: "avatar", widget: "string" }
 
   - name: "about"
     label: "Über uns"
     delete: false
-    file: "content/about.json"
-    fields:
-      - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Unsere Geschichte" }
-      - { label: "Titel", name: "title", widget: "string", default: "Wo Leidenschaft auf Kaffee trifft" }
-      - { label: "Absatz 1", name: "p1", widget: "text" }
-      - { label: "Absatz 2", name: "p2", widget: "text" }
-      - label: "Werte"
-        name: "values"
-        widget: "list"
+    files:
+      - file: "content/about.json"
+        label: "Über uns"
+        name: "about"
         fields:
-          - { label: "Icon-Name", name: "icon", widget: "string" }
-          - { label: "Titel", name: "title", widget: "string" }
-          - { label: "Beschreibung", name: "desc", widget: "text" }
-      - label: "Team"
-        name: "team"
-        widget: "list"
-        fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Rolle", name: "role", widget: "string" }
-          - { label: "Bio", name: "bio", widget: "text" }
-          - { label: "Foto-URL", name: "photo", widget: "string" }
+          - { label: "Hero Titel", name: "heroTitle", widget: "string", default: "Unsere Geschichte" }
+          - { label: "Hero Untertitel", name: "heroSubtitle", widget: "text" }
+          - { label: "Sektions-Label", name: "sectionLabel", widget: "string", default: "Seit 2018" }
+          - { label: "Titel", name: "title", widget: "string", default: "Wie Brew & Bean begann" }
+          - { label: "Absatz 1", name: "p1", widget: "text" }
+          - { label: "Absatz 2", name: "p2", widget: "text" }
+          - { label: "Absatz 3", name: "p3", widget: "text" }
+          - { label: "Werte Sektions-Label", name: "valuesSectionLabel", widget: "string", default: "Wofür wir stehen" }
+          - { label: "Werte Titel", name: "valuesTitle", widget: "string", default: "Unsere Werte" }
+          - { label: "Werte Untertitel", name: "valuesSubtitle", widget: "text" }
+          - label: "Werte"
+            name: "values"
+            widget: "list"
+            fields:
+              - { label: "Icon-Name", name: "icon", widget: "string" }
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Beschreibung", name: "desc", widget: "text" }
+          - { label: "Team Sektions-Label", name: "teamSectionLabel", widget: "string", default: "Unser Team" }
+          - { label: "Team Titel", name: "teamTitle", widget: "string", default: "Lernen Sie unser Team kennen" }
+          - { label: "Team Untertitel", name: "teamSubtitle", widget: "text" }
+          - label: "Team"
+            name: "team"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Rolle", name: "role", widget: "string" }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Foto-URL", name: "photo", widget: "string" }
