@@ -1,14 +1,12 @@
 backend:
-  name: github
-  repo: muthutechch/brew-bean
-  branch: main
+  name: git-gateway
 
 publish_mode: editorial_workflow
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
-site_url: https://muthutechch.github.io/brew-bean
-display_url: https://muthutechch.github.io/brew-bean
+site_url: https://ephemeral-fox-04c28c.netlify.app
+display_url: https://ephemeral-fox-04c28c.netlify.app
 logo_url: https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=200&q=80
 
 collections:
